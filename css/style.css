@@ -7,6 +7,7 @@
 
 /* Style the header */
 .header {
+  position: fixed;
   background-color: #3b4e36;
   padding: 20px;
   text-align: center;
