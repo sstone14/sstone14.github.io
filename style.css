@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+	* {
+  box-sizing: border-box;
+}
+
+
+/* Style the header */
+.header {
+  position: fixed;
+  top: 0px;
+  left: 200px;
+  background-color: #3b4e36;
+  text-align: center;
+}
+
+	
+.w3-sidebar {
+	background-color:#7f6289;
+	color: #938e65;
+	position: fixed;
+	padding-right: 5px;
+		top: 114px;
+		left: 0px;
+}
+
+	
+.w3-sidebar a {display:block;}
+	
+	body {
+		margin: 0;
+		background-color: #afac8f;
+		text-align: center;
+		position:fixed;
+		top: 114px;
+		left: 200px;
+		}
+
+
+	.responsive {
+  		padding: 0 6px;
+ 		float: left;
+  		width: 20%;
+	}
+
+	@media only screen and (max-width: 700px) {
+  		.responsive {
+   		width: 40%;
+    	margin: 6px 0;
+  		}
+	}
+
+	@media only screen and (max-width: 500px) {
+  		.responsive {
+    	width: 20%;
+  	}
+	}
+
+	.clearfix:after {
+  		content: "";
+  		display: table;
+  		clear: both;
+	}

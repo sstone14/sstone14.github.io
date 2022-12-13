@@ -1,77 +1,123 @@
 <!doctype html>
 <html>
+ 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="/css/style.css">
-	<title>Untitled Document</title>
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+<title>Untitled Document</title>
+<style>
+	html {
+  scroll-behavior: smooth;
+}
+	
+div.gallery {
+  	align: center;
+}
+
+div.gallery:hover {
+  	border: 0px solid #777;
+}
+
+div.gallery img {
+ 	width: 60%;
+ 	height: 60%;
+}
+
+div.desc {
+  	padding: 1px;
+  	text-align: center;
+}
+
+* {
+  	box-sizing: border-box;
+}
+	
+ul.a {
+  list-style-type: circle;
+}
+
+
+ol.b {
+  list-style-type: numbers;
+}	
+</style>
 </head>
 	
 <div class="header">
 	<h1> Photo Gallery </h1>
-	
 </div>
-	
-<body>	
+		
 <div class="w3-sidebar">
-  	<h3 class="w3-bar-item">Home</h3>
-  	<a href="photogallery.html" class="w3-bar-item w3-button">Photo Gallery</a>
+  	<h3 class="w3-bar-item">Photo Gallery</h3>
+  	<a href="index.html" class="w3-bar-item w3-button">Home</a>
   	<a href="blog.html" class="w3-bar-item w3-button">Blog</a>
   	<a href="artgallery.html" class="w3-bar-item w3-button">Art Gallery</a>
   	<a href="contact.html" class="w3-bar-item w3-button">Contact</a>
 </div>
-	<h2>Welcom To The Photo Gallery!</h2>
+	
+	<body>
+	<h2>Welcome To The Photo Gallery!</h2>
 	<h4>Below are photos of poisonous plants. Go ahead and take a look.</h4>
-
-<div class="responsive">
-  <div class="gallery">
-    <a target="_images" href="nightshade.jpeg">
-    <img src="nightshade.jpg" alt="dark purple berrys with star petals " width="20" height="40">
-    </a>
-    <div class="desc">Add a description of the image here</div>
- </div>
-</div>
-
-<div class="responsive">
-<div class="gallery">
-    <a target="_images" href="hemlock.jpg">
-    <img src="hemlock.jpg" alt="White rounded star shaped flower cluster" width="20" height="40">
-   </a>
-   <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-<div class="responsive">
-<div class="gallery">
-    <a target="_images" href="snakeroot.jpg">
-     <img src="snakeroot.jpg" alt="White flower clusters" width="20" height="40">
-   </a>
-	<div class="desc">Add a description of the image here</div>
-  </div>
-</div>
-
-<div class="responsive">
-<div class="gallery">
-    <a target="_images" href="peas.jpg">
-     <img src="peas.jpg" alt="dried out grean beans that look red and black" width="20" height="40">
-   </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
 	
-<div class="responsive">
-<div class="gallery">
-    <a target="_images" href="oleander.jpg">
-      <img src="oleander.jpg" alt="large oval flower clusters" width="20" height="40">
-   </a>
-    <div class="desc">Add a description of the image here</div>
-  </div>
-</div>
+		
+		
+		<ol class="b">
+			<li>Deadly Nightshade</li>
+			<li>White Hemlock</li>
+			<li>White Snakefoot</li>
+			<li>Jequirity Peas</li>
+			<li>Oleander</li>
+		</ol>
+		
+	<div class="responsive">
+  	<div class="gallery">
+    		<img src="https://github.com/sstone14/sstone14.github.io/blob/main/_images/nightshade.jpg?raw=true" alt="dark purple berrys with star petals " width="40" height="40">
+    	 <div class="desc">1.</div>
+ 		</div>
+	</div>
 
-<div class="clearfix"></div>
+	<div class="responsive">
+	<div class="gallery">
+    		<img src="https://github.com/sstone14/sstone14.github.io/blob/main/_images/hemlock.jpg?raw=true" alt="White rounded star shaped flower cluster" width="40" height="40">
+   		 <div class="desc">2.</div>
+  		</div>
+	</div>
+
+	<div class="responsive">
+	<div class="gallery">
+     		<img src="https://github.com/sstone14/sstone14.github.io/blob/main/_images/snakeroot.jpg?raw=true" alt="White flower clusters" width="40" height="40">
+		 <div class="desc">3.</div>
+  		</div>
+	</div>
+
+	<div class="responsive">
+	<div class="gallery">
+     		<img src="https://github.com/sstone14/sstone14.github.io/blob/main/_images/peas.jpg?raw=true" alt="dried out grean beans that look red and black" width="40" height="40">
+    	 <div class="desc">4.</div>
+  		</div>
+	</div>
 	
-</body>
+	<div class="responsive">
+	<div class="gallery">
+      		<img src="https://github.com/sstone14/sstone14.github.io/blob/main/_images/oleander%20(1).jpg?raw=true" alt="large oval flower clusters" width="40" height="40">
+    	 <div class="desc">5.</div>
+		</div>
+	</div>
+
+	<div class="clearfix"></div>
+		
+		<p>Other Poisonous Plants Not Shown:</p>
+		<ul class="a">
+  			<li>Lilly of The Valley</li>
+  			<li>Tabacco</li>
+  			<li>Caster Bean</li>
+		</ul>
+	
+		
+	</body>
 	
 </html>
 
