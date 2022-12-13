@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @charset "utf-8";
 /* CSS Document */
 	* {
@@ -67,73 +67,4 @@
   		display: table;
   		clear: both;
 	}
-=======
-@charset "utf-8";
-/* CSS Document */
-	* {
-  box-sizing: border-box;
 
-}
-
-
-/* Style the header */
-.header {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-	right: 0px;
-	bottom: 630px;
-    background-color: #3b4e36;
-    text-align: center;
-    font-family: Copperplate, Papyrus, fantasy;
-}
-
-	
-.w3-sidebar {
-	background-color:#352840;
-	color: #7f6289;
-	position: fixed;
-	padding-right: 5px;
-	top: 114px;
-	left: 0px;
-}
-    
-	
-.w3-sidebar a {display:block;}
-	
-	body {
-		margin: 0;
-		width: 100%;
-		height: 20px;
-		background-color: #afac8f;
-		position:fixed;
-		top: 114px;
-		left: 200px;
-		}
-
-
-	.responsive {
-  		padding: 0 6px;
- 		float: left;
-  		width: 20%;
-	}
-
-	@media only screen and (max-width: 700px) {
-  		.responsive {
-   		width: 40%;
-    	margin: 6px 0;
-  		}
-	}
-
-	@media only screen and (max-width: 500px) {
-  		.responsive {
-    	width: 20%;
-  	}
-	}
-
-	.clearfix:after {
-  		content: "";
-  		display: table;
-  		clear: both;
-	}
->>>>>>> origin/main
