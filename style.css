@@ -7,30 +7,35 @@
 
 /* Style the header */
 .header {
-  position: fixed;
-  top: 0px;
-  left: 200px;
-  background-color: #3b4e36;
-  text-align: center;
+    position: fixed;
+    top: 0px;
+    left: 200px;
+    background-color: #3b4e36;
+    text-align: center;
+    font-family: Copperplate, Papyrus, fantasy;
 }
 
 	
 .w3-sidebar {
-	background-color:#7f6289;
-	color: #938e65;
+	background-color:#352840;
+	color: #7f6289;
 	position: fixed;
 	padding-right: 5px;
-		top: 114px;
-		left: 0px;
+	top: 114px;
+	left: 0px;
 }
-
+    .w3-button:w3-hover {
+	    background-color: #7f6289;
+	    color: #3b4e36;
+	}
 	
 .w3-sidebar a {display:block;}
 	
 	body {
 		margin: 0;
+		width: 100%;
+		height: 20px;
 		background-color: #afac8f;
-		text-align: center;
 		position:fixed;
 		top: 114px;
 		left: 200px;
